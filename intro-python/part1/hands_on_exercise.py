@@ -27,12 +27,13 @@ if picked_fruit == 'orange':
     print("The fruit is orange")
 elif picked_fruit == 'strawberry':
     print("The fruit is red")
-else:
+elif picked_fruit == 'banana':
     print("The fruit is yellow")
 
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
 def multiply(num1, num2):
+    """Multiply two numbers and return the result."""
     result = num1 * num2
     return result
 
